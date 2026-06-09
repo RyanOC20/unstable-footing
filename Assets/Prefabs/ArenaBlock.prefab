@@ -68,7 +68,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: ca8ab03f10554cc4aa98d896ffcbb23d, type: 2}
+  - {fileID: 2100000, guid: 891565d410194fa49b57f3710db5af0c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -125,3 +126,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6b99c7615979fc47ab1114a39502e48, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::blockMover
+  loweredAmount: 5
+  moveDuration: 1.5
+  normalMaterial: {fileID: 0}
+  iceMaterial: {fileID: 0}
+  mudMaterial: {fileID: 0}
+  fireMaterial: {fileID: 0}
+  normalPhysics: {fileID: 0}
+  icePhysics: {fileID: 0}
+  mudPhysics: {fileID: 0}
+  firePhysics: {fileID: 0}
+  dropAmount: 20
+  dropDuration: 5
